@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css"> 
+</head>
+<body>    
+    <div class="container">
+        <h1>Currency converter</h1>
+        <div style="margin-bottom: 15px;" class="input">
+            <label for="amount">Enter amount</label>
+            <input type="text" id="amount" name="username" placeholder="100">
+        </div>
+        <div class="List">
+        
+            <select id="country1" name="country">
+                <option value="" disabled selected>USD - United States Dollar</option>
+                <option value="USD">United States</option>
+                <option value="INR">India</option>
+                <option value="GBPS">United Kingdom</option>
+                <option value="CAD">Canada</option>
+            </select>
+            <span>TO</span>
+        
+            <select id="country2" name="country">
+                <option value="" disabled selected>INR - Indian Rupee</option>
+                <option value="USD">United States</option>
+                <option value="INR">India</option>
+                <option value="GBP">United Kingdom</option>
+                <option value="CAD">Canada</option>
+            </select>
+        </div>
+        <div class="button">
+            <button>Convert</button>
+        </div>
+
+    </div>
+
+    <script src="curr.js"></script>
+</body>
+</html>
